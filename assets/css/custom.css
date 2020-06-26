@@ -1,0 +1,117 @@
+#admincontent {
+  margin-top: 40px;
+}
+#admincontent .table {
+  margin-top: 20px;
+}
+#admincontent thead .active {
+  text-decoration: underline;
+  font-weight: bold;
+}
+#admincontent .card-header,
+#admincontent .card-footer {
+  display: flex;
+}
+.spacer {
+  flex: 1 1 auto;
+}
+.sitecontent {
+  padding-top: 56px;
+}
+
+.introducao {
+	width: 100%;
+  height: 380px;
+  color: #fff;
+  background: url("/assets/img/metlife.png");
+	background-size: cover;
+	margin-top: 96px;
+	text-align: center;
+	padding-top: 80px;
+}
+
+.introducao h1 {
+	font-family: Dealerplate California;
+	font-size: 48px;
+	color: #FFF;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.introducao h2 {
+  font-family: Dealerplate California;
+  text-align: center;
+	font-size: 40px;
+	color: #A71930;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.introducao h3 {
+  font-family: Dealerplate California;
+  text-align: center;
+	font-size: 25px;
+	color: #FFF;
+	font-weight: bold;
+}
+.corpo {
+	width: 100%;
+  height: 380px;
+  color: white;
+	background-color:  #0B2265;
+	background-size: cover;
+	margin-top: 96px;
+	text-align: center;
+	padding-top: 80px;
+}
+
+.corpo h1 {
+	font-family: Dealerplate California;
+	font-size: 48px;
+	color: #FFF;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.corpo h2 {
+  font-family: Dealerplate California;
+  text-align: center;
+	font-size: 40px;
+	color: #A71930;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.corpo2 {
+	width: 100%;
+  height: 380px;
+  color: white;
+	background-color:  #A71930;
+	background-size: cover;
+	margin-top: 96px;
+	text-align: center;
+	padding-top: 80px;
+}
+
+.corpo2 h2 {
+  font-family: Dealerplate California;
+  text-align: center;
+	font-size: 40px;
+	color: #0B2265;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.subtitulo-interno{
+	font-family: Dealerplate California;
+	font-size: 30px;
+	color: #A71930;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.subtitulo-interno2{
+	font-family: Dealerplate California;
+	font-size: 30px;
+	color: #0B2265;
+	font-weight: bold;
+	text-transform: uppercase;
+}

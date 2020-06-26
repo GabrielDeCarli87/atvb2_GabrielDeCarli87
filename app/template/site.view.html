@@ -1,0 +1,113 @@
+<div class="sitecontent">
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Registro de Jogadores</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#!/admin/categorias">Cadastrar</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="https://www.nfl.com/">Site NFL
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section class="introducao">
+    
+        <div class="container">
+          
+          <h1>Jogadores da National Football League</h1>
+            
+            <blockquote class="quote-externo">
+              
+              <p>Nós criamos esse site para gerenciar os jogadores que formam a maior liga de futebol americano do mundo.</p>
+
+              <p>Você poderá ordenar os jogadores por suas posições, times, número de camisas e nomes.</p>
+            
+              <cite>National Football League</cite>
+            
+            </blockquote>
+
+        </div>
+      
+      </section>
+
+        <section class="corpo">
+    
+            <h2 class="subtitulo">Posições</h2>
+              
+                <h3>Time de Ataque</h3>
+
+                <p>Um ataque inteligente é letal para qualquer defesa.</p>   
+
+                <h3>Time de Defesa</h3>
+
+                <p>Um bom ataque ganha jogos, uma boa defesa ganha compeonatos.</p>
+
+                <h3>Time Especialista</h3>
+
+                <p>Quadjuvantes nos elencos, decisivos nas vitórias.</p>
+                      
+          </section>
+
+          <section class="corpo2">
+    
+            <h2 class="subtitulo">Times</h2>
+              
+                <h3>American Football Conference</h3>
+
+                <p>A American Football Conference (AFC) é uma das duas conferências da National Football League, o campeonato de futebol americano profissional dos Estados Unidos. A AFC foi formada quando a American Football League (AFL) se juntou à NFL após a fusão das ligas, em 1970.</p>   
+
+                <h3>National Footbal Conference</h3>
+
+                <p>A National Football Conference (NFC) é uma das duas conferências da National Football League. A conferência foi criada em 1970, quando houve a fusão das ligas NFL e AFL. A NFC era composta por treze das dezesseis equipes da NFL existentes na época (as três outras foram colocadas na AFC). Desde então, três novas equipes se integraram, por meio de expansão e mudanças nas divisões, sendo que atualmente a NFC é composta por dezesseis equipes.</p>
+                      
+          </section>
+
+                <div class="row">
+
+                    <div class="col-lg-4 col-md-6 mb-4" ng-repeat="produto in produtos">
+                        <div class="card h-100">
+                            <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+                            <div class="card-body">
+                                <h4 class="card-title">
+                                    <a href="#">{{produto.nome}}</a>
+                                </h4>
+                                <h5>{{produto.preco | currency}}</h5>
+                                <p class="card-text">{{produto.descricao}}</p>
+                            </div>
+                            <div class="card-footer">
+                                <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- /.row -->
+
+            </div>
+            <!-- /.col-lg-9 -->
+
+        </div>
+        <!-- /.row -->
+
+    </div>
+    <!-- /.container -->
+
+    <!-- Footer -->
+    <footer class="py-4 bg-dark">
+        <div class="container">
+            <p class="m-0 text-center text-white">Gabriel De Carli Entertainment 2020</p>
+        </div>
+        <!-- /.container -->
+    </footer>
+</div>
